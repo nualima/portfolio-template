@@ -1,0 +1,4 @@
+﻿@".Server=127.0.0.1;Database=dbHelpDesk01;User Id=utUser;Password=usrsql"
+
+IP local du serveur de production :  
+..

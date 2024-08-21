@@ -1,0 +1,142 @@
+* {
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: none(231, 144, 135);
+    height: 100%;
+}
+
+#bloc_page {
+    border: none;
+    height: 100%;
+    padding: 0%;
+    padding-left: 0%;
+    position: relative;
+    height: 100%
+}
+
+#page_content {
+    height: 100%;
+    padding-left: 20px;
+    background-color: #fffcf8;
+    left: 205px;
+    position: absolute;
+    top: 0;
+}
+
+#accordion {
+    height: 8em;
+}
+
+#header {
+    border: none;
+    border: none;
+    border-radius: none;
+    background-color: none;
+}
+
+#identite {
+    border: none;
+    border-right: solid 2px #2273d0;
+    background-color: #2273d0;
+    width: 205px;
+    min-height: 100%;
+}
+
+#identite p {
+    margin-left: 10px;
+    color: #fffcf8;
+    height: 100%;
+}
+
+#photo {
+    border: none;
+    height: 10em;
+    text-align: center;
+    width: 209px;
+}
+
+.portrait {
+    border-radius: 50%;
+    width: auto;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.titre {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    height: 100%;
+    border-bottom: solid 1px #2273d0;
+    padding-left: 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 1em;
+}
+
+#identite .titre {
+    border-bottom: solid 1px #fffcf8;
+}
+
+.shadow {
+    box-shadow: 0px 0px 2px white;
+}
+
+h2 {
+    padding: 2em!important;
+}
+
+.type {
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+}
+
+#identite .answere_type {
+    margin-left: 1.7em;
+    margin-bottom: 1.5em;
+}
+
+#identite .answere {
+    margin-left: 1.7em;
+    padding-bottom: 0.2em;
+    margin-bottom: 0em;
+}
+
+Article {
+    width: 70%;
+    padding-left: none;
+}
+
+article p {
+    padding-left: 0px;
+    font-size: 1.3rem;
+    color: #576067;
+}
+
+h1 {
+    border-bottom: solid 1px blue;
+    margin-top: 20px;
+    font-weight: bold;
+    border-bottom: none;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+label {
+    padding-right: 10px;
+    font-size: 1rem;
+}

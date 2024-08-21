@@ -1,0 +1,36 @@
+body {
+    /* text-align: -webkit-center; */
+    margin-left: 30px;
+}
+
+#zone_form {
+    background-color: wheat;
+    width: 18em;
+    height: auto;
+    text-align: justify;
+    white-space: pre-line;
+}
+
+
+}
+.formulaire {
+    padding-left: 10px;
+}
+textarea {
+    width: 75%;
+    height: 55px;
+}
+#name,
+#email,
+#tel,
+#readonly {
+    border-radius: 10px;
+    border: solid 1px #0003;
+}
+#mail {
+    white-space: normal;
+}
+#age {
+    border-radius: 10px;
+    border: solid 1px #0003;
+}

@@ -1,0 +1,47 @@
+C:\Users\flori\Desktop\Cours BTS SIO\Dev App\HelpDesk01\HelpDesk01\bin\Debug\HelpDesk01.exe.config
+C:\Users\flori\Desktop\Cours BTS SIO\Dev App\HelpDesk01\HelpDesk01\bin\Debug\HelpDesk01.exe
+C:\Users\flori\Desktop\Cours BTS SIO\Dev App\HelpDesk01\HelpDesk01\bin\Debug\HelpDesk01.pdb
+C:\Users\flori\Desktop\Cours BTS SIO\Dev App\HelpDesk01\HelpDesk01\obj\Debug\HelpDesk01.csprojAssemblyReference.cache
+C:\Users\flori\Desktop\Cours BTS SIO\Dev App\HelpDesk01\HelpDesk01\obj\Debug\HelpDesk01.Forms.FormMain.resources
+C:\Users\flori\Desktop\Cours BTS SIO\Dev App\HelpDesk01\HelpDesk01\obj\Debug\HelpDesk01.Forms.FormTicketCreation.resources
+C:\Users\flori\Desktop\Cours BTS SIO\Dev App\HelpDesk01\HelpDesk01\obj\Debug\HelpDesk01.Forms.FormTicketList.resources
+C:\Users\flori\Desktop\Cours BTS SIO\Dev App\HelpDesk01\HelpDesk01\obj\Debug\HelpDesk01.Properties.Resources.resources
+C:\Users\flori\Desktop\Cours BTS SIO\Dev App\HelpDesk01\HelpDesk01\obj\Debug\HelpDesk01.csproj.GenerateResource.cache
+C:\Users\flori\Desktop\Cours BTS SIO\Dev App\HelpDesk01\HelpDesk01\obj\Debug\HelpDesk01.csproj.CoreCompileInputs.cache
+C:\Users\flori\Desktop\Cours BTS SIO\Dev App\HelpDesk01\HelpDesk01\obj\Debug\HelpDesk01.exe
+C:\Users\flori\Desktop\Cours BTS SIO\Dev App\HelpDesk01\HelpDesk01\obj\Debug\HelpDesk01.pdb
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\HelpDesk01.exe.config
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\HelpDesk01.exe
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\HelpDesk01.pdb
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\obj\Debug\HelpDesk01.csproj.AssemblyReference.cache
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\obj\Debug\HelpDesk01.Forms.FormMain.resources
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\obj\Debug\HelpDesk01.Properties.Resources.resources
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\obj\Debug\HelpDesk01.csproj.GenerateResource.cache
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\obj\Debug\HelpDesk01.csproj.CoreCompileInputs.cache
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\obj\Debug\HelpDesk01.exe
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\obj\Debug\HelpDesk01.pdb
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\obj\Debug\HelpDesk01.Forms.FormEquipementAjouter.resources
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\obj\Debug\HelpDesk01.Forms.FormEquipementListe.resources
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\Google.Protobuf.dll
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\MySql.Data.dll
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\System.Buffers.dll
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\System.Memory.dll
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\ZstdNet.dll
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\Google.Protobuf.pdb
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\Google.Protobuf.xml
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\MySql.Data.xml
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\System.Buffers.xml
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\System.Memory.xml
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\redwa\OneDrive\Bureau\ppe\HelpDesk01\HelpDesk01\obj\Debug\HelpDesk01.csproj.CopyComplete

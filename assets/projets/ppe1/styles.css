@@ -1,0 +1,25 @@
+header {
+    height: 17em;
+}
+
+.form_index {
+    width: 500px;
+    text-align-last: center;
+    margin: auto;
+}
+
+.form-floating {
+    margin-top: 25px;
+}
+
+.h5 {
+    opacity: 0.8;
+}
+
+#submit {
+    margin-top: 30px;
+}
+
+.inscrivez-vous {
+    color: #ffc107;
+}

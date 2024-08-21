@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="formulaire.css" />
+    <title> formulaire </title>
+
+</head>
+
+<body>
+    <h1>FORMULAIRE :</h1>
+    <div id="zone_form">
+        <form class="formulaire" action="" method="post" style="padding-left: 10px;">
+            <div>
+                <label for="name">Nom :</label><br>
+                <input type="text" id="name" name="user_name" valut="moi" placeholder="Ex: Sanchez" maxlenght="10" minlenght="2">
+
+            </div>
+            <div id="mail">
+                <label for="email">Email : </label><br>
+                <input type="text" id="email" name="user_email" placeholder="monmail@hotmail.com">
+            </div>
+            <div>
+                <label for="tel">Téléphone :</label><br>
+                <input type="tel" id="tel" name="tel" placeholder="04 93 34 15 13" pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}" title="veuillez entrer un numéro valide">
+
+            </div>
+            <div>
+                <label for="age">date de naissance :</label><br>
+                <input type="date" id="date" name="date" />
+            </div>
+
+            <div>
+                <label for="pays">Pays :</label><br />
+                <select name="pays" id="pays">
+                    <option value="france">France</option>
+                    <option value="italie">Italie</option>
+                    <option value="espagne">Espagne</option>
+                    <option value="etats-unis">États-Unis</option>
+                    <option value="japon">Japon</option> 
+                    <option value="canada">Canada</option>
+                    <option value="chine">Chine</option>
+                </select>
+            </div>
+            <div>
+                <input type="radio" name="age" value="femme" id="femme" /> <label for="femme">Femme</label>
+                <input type="radio" name="age" value="homme" id="" /> <label for="homme">Homme </label>
+                <input type="radio" name="" value="autre" id="autre" /> <label for="autre">Autre</label>
+            </div>
+            <div>
+                <label for="message">Votre message :</label><br>
+                <textarea id="message" name="user_message">
+                        </textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Envoyer le message</button>
+            </div>
+
+    </div>
+    </form>
+
+</body>
+
+</html>

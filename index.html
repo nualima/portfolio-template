@@ -54,7 +54,7 @@
 <!-- Update favicon href attribute with image of yourself -->
     <link
       rel="shortcut icon"
-      href="assets/images/favicons.png"
+      href="assets/images/redwan.jpg"
       type="image/png"
     />
 
@@ -72,7 +72,14 @@
     <script src="script.js" defer></script>
 
     <!-- Your name here -->
-    <title>Syed Mohsin's Portfolio</title>
+    <title>Portfolio Redwan Gharbi</title>
+
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function(){
+        emailjs.init("redwan.gharbi@hotmail.com"); // Remplace par ton User ID d'EmailJS
+      })();
+</script>
   </head>
 
   <body>
@@ -106,139 +113,48 @@
         <div class="header-textbox">
           <!-- Replace with your name and job title -->
           <h1 class="h1">
-            <span>Hi, I'm Syed Mohsin</span>
-            <span>Frontend Web Developer</span>
+            <span>Je suis Redwan Gharbi</span>
+            <span>Developpeur Web</span>
           </h1>
 
           <!-- Add a small introductory paragraph about yourself -->
           <p class="header-text">
-            A frontend software engineer and interface designer who builds UX
-            rich accessible and performant websites.
+            Un developpeur qui conçois et réalise des sites modernes, performants et accessibles,
+             tout en mettant l'accent sur une expérience utilisateur (UX) fluide et intuitive.
           </p>
 
           <div class="header-btns">
-            <a href="#contact" class="btn btn-cta">Hire me</a>
-            <a href="#work" class="btn btn-secondary">See my work</a>
+            <a href="#contact" class="btn btn-cta">Me contacter</a>
+            <a href="#work" class="btn btn-secondary">Voir mes travaux</a>
           </div>
         </div>
       </div>
     </header>
 
     <main>
-      <section class="client">
-        <div class="container">
-          <h2 class="h2">Trusted by</h2>
-          <div class="logos">
-            <!-- Replace alt with client/company name and src attributes of images with path to relative img of client logo -->
-            <div class="logo-group">
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/stripe.svg"
-                alt="Ideacraft"
-                class="logo hide to-top"
-              />
-
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/datastax.svg"
-                alt="Golden grid"
-                class="logo"
-              />
-
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/coke.svg"
-                alt="Theia"
-                class="logo hide to-bottom"
-              />
-            </div>
-            <div class="logo-group">
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/gm.svg"
-                alt="General motors"
-                class="logo hide to-top"
-              />
-
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/shares.svg"
-                alt="Chippy"
-                class="logo"
-              />
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/shopify.svg"
-                alt="Shopify"
-                class="logo hide to-bottom"
-              />
-            </div>
-            <div class="logo-group">
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/agency-elevation.svg"
-                alt="Agency elevation"
-                class="logo hide to-top"
-              /><img
-                loading="lazy"
-                src="assets/images/trusted-by/gitlab.svg"
-                alt="Ron jones"
-                class="logo"
-              /><img
-                loading="lazy"
-                src="assets/images/trusted-by/duolingo.svg"
-                alt="Mighty furniture's"
-                class="logo hide to-bottom"
-              />
-            </div>
-            <div class="logo-group">
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/coyote.svg"
-                alt="Bulls eye"
-                class="logo hide to-top"
-              />
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/astrato.svg"
-                alt="Chippy"
-                class="logo"
-              />
-              <img
-                loading="lazy"
-                src="assets/images/trusted-by/mercado.svg"
-                alt="Fastlane"
-                class="logo hide to-bottom"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section class="work">
         <div class="container">
-          <h2 class="h2" id="work">Selected Work</h2>
+          <h2 class="h2" id="work">Mes projets</h2>
           <div class="work-boxes">
             <div class="work-box">
               <div class="work-textbox">
                 <!-- Add your project title here -->
-                <h3 class="h3">portfolio template</h3>
+                <h3 class="h3">Skolea</h3>
                 <!-- Add small description of your project  -->
                 <p class="work-text">
-                  A free to use, minimal and accessible portfolio template for
-                  developers.
+                  Une application de cours en ligne où professeurs et eleves peuvent communiquer et reserver pour des cours.
                 </p>
                 <!-- Add technologies you used to build the project -->
                 <ol class="work-technologies">
                   <li>React</li>
-                  <li>Gatsby</li>
-                  <li>SCSS</li>
-                  <li>MDX</li>
+                  <li>NodeJs</li>
+                  <li>Sequelize</li>
+                  <li>Swagger</li>
                 </ol>
 
                 <div class="work-links">
                   <!-- Add url of project in href attribute -->
-                  <a href="https://github.com/devsyedmohsin" target="_blank" rel="noopener" class="link"
+                  <a href="https://github.com/nualima/Skolea" target="_blank" rel="noopener" class="link"
                     >Explore this project</a
                   >
 
@@ -263,26 +179,26 @@
               <picture class="work-img">
                 <img
                   loading="lazy"
-                  src="assets/images/work/portfolio-template.webp"
-                  alt="agency elevation"
+                  src="assets/images/work/Skolea.png"
+                  alt="Skolea"
                 />
               </picture>
             </div>
             <div class="work-box">
               <div class="work-textbox">
                 <!-- Add your project title here -->
-                <h3 class="h3">agencyelevation.com</h3>
+                <h3 class="h3">House of leagues</h3>
                 <!-- Add small description of your project  -->
 
-                <p class="work-text">Website for Agency Elevation.</p>
+                <p class="work-text">Une application qui affiche les resultats d'une compétition de basket</p>
                 <ol class="work-technologies">
-                  <li>React</li>
-                  <li>Gatsby</li>
-                  <li>Material UI</li>
+                  <li>Php</li>
+                  <li>Twig</li>
+                  <li>Workbench</li>
                 </ol>
                 <div class="work-links">
                   <!-- Add url of project in href attribute -->
-                  <a href="#" target="_blank" rel="noopener" class="link"
+                  <a href="https://github.com/nualima/maisonDesLeagues" target="_blank" rel="noopener" class="link"
                     >Explore this project</a
                   >
 
@@ -305,33 +221,31 @@
               <picture class="work-img">
                 <img
                   loading="lazy"
-                  src="assets/images/work/agency-elevation.webp"
-                  alt="portfolio template"
+                  src="assets/images/work/ppe1.PNG"
+                  alt="House of leagues "
                 />
               </picture>
             </div>
             <div class="work-box">
               <div class="work-textbox">
                 <!-- Add your project title here -->
-                <h3 class="h3">contribute.dev</h3>
+                <h3 class="h3">Jeu du Pendu</h3>
                 <!-- Add small description of your project  -->
-                <p class="work-text">
-                  Website for DevX A dedicated space for developer experience
-                </p>
+
+                <p class="work-text">Un jeu de pendu avec des mots aléatoires séléctionné dans un dictionnaire</p>
                 <ol class="work-technologies">
-                  <li>Ruby</li>
-                  <li>SvelteKit</li>
-                  <li>Emotion</li>
+                  <li>Base JavaScript</li>
+                  <li>Base Html/Css</li>
                 </ol>
                 <div class="work-links">
                   <!-- Add url of project in href attribute -->
-                  <a href="#" target="_blank" rel="noopener" class="link"
+                  <a href="https://github.com/nualima/pendu" target="_blank" rel="noopener" class="link"
                     >Explore this project</a
                   >
 
-                   <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                     <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
                   <a
-                    href="#"
+                    href="http://github.com/devsyedmohsin"
                     target="_blank"
                     rel="noopener"
                     title="Source code"
@@ -348,8 +262,8 @@
               <picture class="work-img">
                 <img
                   loading="lazy"
-                  src="assets/images/work/contribute-dev.webp"
-                  alt="contribute dev"
+                  src="assets/images/pendu.jpg"
+                  alt="House of leagues "
                 />
               </picture>
             </div>
@@ -359,7 +273,7 @@
 
       <!-- I write blog posts on dev.to at https://dev.to/devsyedmohsin. I have linked my articles accordingly, so please update the article title, description, and link accordingly. For example, if you write an article on Medium, link your article to Medium. Also, don't forget to update the reaction count. -->
 
-      <section class="article">
+      <!-- <section class="article">
         <div class="container">
           <h2 class="h2" id="blog">My Articles</h2>
           <div class="article-boxes">
@@ -470,21 +384,21 @@
             </article>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Update skills-img src, alt  and title attributes I have added some other logos in assets/images/skill for your convenience feel free to pick one if required  -->
 
       <section class="skills">
         <div class="container">
-          <h2 class="h2" id="skills">My Toolkit</h2>
+          <h2 class="h2" id="skills">Mes compétences</h2>
           <div class="skills-imgs">
                 <img src="assets/images/skills/react.webp" alt="React" class="skills-img" loading="lazy" title="React">
-                <img src="assets/images/skills/svelte.webp" alt="Svelte" class="skills-img" loading="lazy" title="Svelte">
+                <img src="assets/images/skills/vuejs.webp" alt="VueJs" class="skills-img" loading="lazy" title="VueJs">
                  <img src="assets/images/skills/typescript.webp" alt="Typescript" class="skills-img" loading="lazy" title="Typescript">
-                 <img src="assets/images/skills/a11y.webp" alt="Accessibility" class="skills-img" loading="lazy" title="Web Accessibility">
+                 <img src="assets/images/skills/sequelize_logo.png" alt="Sequelize" class="skills-img" loading="lazy" title="Sequelize">
                  <img src="assets/images/skills/shell.webp" alt="Shell" class="skills-img" loading="lazy" title="Shell">
-                 <img src="assets/images/skills/next-js.webp" alt="NextJS" class="skills-img" loading="lazy" title="NextJS">
-                 <img src="assets/images/skills/graphql.webp" alt="Graph Ql" class="skills-img" loading="lazy" title="Graph QL">
+                 <img src="assets/images/skills/nuxtJs_logo.png" alt="NuxtJS" class="skills-img" loading="lazy" title="NuxtJS">
+                 <img src="assets/images/skills/postman.png" alt="Postman" class="skills-img" loading="lazy" title="Postman">
                  <img src="assets/images/skills/git.webp" alt="Git" class="skills-img" loading="lazy" title="Git">
                  <img src="assets/images/skills/html.webp" alt="CSS" class="skills-img" loading="lazy" title="CSS">
                  <img src="assets/images/skills/js.webp" alt="JavaScript" class="skills-img" loading="lazy" title="JavaScript">
@@ -501,60 +415,54 @@
           <ol class="testimonials">
             <li class="testimonial">
               <blockquote class="testimonial-text">
-                Working with Syed was a great experience. His drive for clean aesthetics and his open communication style helped us collaborate closely on the solution.
-              </blockquote>
+                Collaborer avec Redwan a été une expérience très enrichissante. Son sens de l'esthétique minimaliste et sa communication transparente ont grandement facilité notre travail en équipe pour développer des solutions.              </blockquote>
               <figure class="testimonial-author">
                 <img
-                  src="assets/images/testimonials/rich-harris.png"
+                  src="assets/images/mazen.jpeg"
                   alt="Rich Harris"
                   loading="lazy"
                 />
                 <figcaption>
-                  <h3 class="testimonial-author-name">Harris Kareem</h3>
-                  <p class="testimonial-author-job">Developer @Outlets</p>
+                  <h3 class="testimonial-author-name">Mazen G.</h3>
+                  <p class="testimonial-author-job">CEO M2g-Intelect</p>
                 </figcaption>
               </figure>
             </li>
             <li class="testimonial">
               <blockquote class="testimonial-text">
-                Syed is a fantastic UI/UX designer and developer with a keen sense for marketing, and lead generation. He's the only designer I know who also has a deep understanding for code and front-end development.
-              </blockquote>
+                Redwan a été un excellent alternant . Il s'est rapidement intégré à l'équipe et a montré une grande autonomie dans son travail. Redwan est sérieux, compétent, et propose souvent des solutions pertinentes. Il communique bien avec ses collègues et sait s'adapter aux besoins des projets.              </blockquote>
               <figure class="testimonial-author">
                 <img
-                  src="assets/images/testimonials/frank-mcsherry.webp"
+                  src="assets/images/Alae.jpeg"
                   alt="Andrew Mead"
                   loading="lazy"
                 />
                 <figcaption>
                   <h3 class="testimonial-author-name">
-                   Andrew Mead
+                   Alaedine B.
                   </h3>
-                  <p class="testimonial-author-job">Chief Scientist @Logos
+                  <p class="testimonial-author-job">CEO Hiracle
                   </p>
                 </figcaption>
               </figure>
             </li>
             <li class="testimonial">
               <blockquote class="testimonial-text">
-             
-                Talented artist, experienced with various
-                media and can make any project you are working on look good. He is
-                easy to work with and is a self starter. I would work with Syed
-                again.
+                Redwan est un alternant très motivé et sérieux, qui a rapidement su s’intégrer à l’équipe. Il fait preuve d'une grande capacité d’adaptation et d’initiative, tout en maintenant un excellent relationnel avec ses collègues. Son travail est toujours de qualité, et il respecte les délais avec rigueur. Je le recommande vivement pour toute opportunité future, car il a toutes les qualités pour réussir.
               </blockquote>
               <figure class="testimonial-author">
                 <img
-                  src="assets/images/testimonials/brian-hirsh.png"
+                  src="assets/images/marouen.jpeg"
                   alt="Brian Hirsh"
                   loading="lazy"
                 />
                 <figcaption>
-                  <h3 class="testimonial-author-name">Brian Hirsh</h3>
-                  <p class="testimonial-author-job">Head @Zero-in</p>
+                  <h3 class="testimonial-author-name">Marouen G.</h3>
+                  <p class="testimonial-author-job">Chef de projet Asr-developpement</p>
                 </figcaption>
               </figure>
             </li>
-            <li class="testimonial">
+            <!-- <li class="testimonial">
               <blockquote class="testimonial-text">
                 Syed is a true professional with amazing talent. He is a creative
                 thinker, has his finger on the pulse of whats to come, and
@@ -607,63 +515,41 @@
                   <p class="testimonial-author-job">A11y Advocate @W3C</p>
                 </figcaption>
               </figure>
-            </li>
+            </li> -->
           </ol>
         </div>
       </section>
 
       <section class="contact">
         <div class="container">
-          <h2 class="h2" id="contact">Send Message</h2>
+          <h2 class="h2" id="contact">Contactez-moi</h2>
           <div class="contact-content">
             <div class="contact-textbox">
-              <!-- Please comment this component if you're not available for hire -->
+              <!-- Indiquer la disponibilité -->
               <strong href="#" class="hire-alert">
                 <span class="indicator"></span>
-                Available for hire
+                Disponible dès à présent
               </strong>
               <p class="contact-text">
-                As a software engineer, I construct web interfaces and design
-                systems with a special love for accessibility and the
-                performance. I tend to code things from scratch and enjoy
-                bringing ideas to life.
+                En tant que développeur web, je crée des interfaces web et conçois des systèmes avec une attention particulière pour l'accessibilité et les performances.
               </p>
-              <p class="contact-text">
-                I'm also an open-source developer, and in my spare time, I do
-                digital art with my iPad Pro.
-              </p>
-              <!-- Replace src with your signatures and name -->
-              <img
-                src="assets/images/signatures.png"
-                alt="Syed Mohsin"
-                class="signatures"
-                loading="lazy"
-              />
             </div>
-            <form action="#" class="contact-form" netlify>
-              <div class="form-field">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" required />
-              </div>
-              <div class="form-field">
-                <label for="email">Email</label>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  required
-                  inputmode="email"
-                />
-              </div>
-              <div class="form-field">
-                <label for="message">How can I help you?</label>
-                <textarea name="message" id="message" required></textarea>
-              </div>
-              <button type="submit" class="btn btn-cta">Send</button>
-            </form>
+      
+            <div class="contact-details">
+              <p class="contact-info">
+                <strong>Téléphone :</strong> 
+                <a>07 68 71 67 84</a>
+              </p>
+              <p class="contact-info">
+                <strong>Email :</strong> 
+                <a >redwan.gharbi@hotmail.com</a>
+              </p>
+            </div>
           </div>
         </div>
       </section>
+      
+      
     </main>
 
     <footer class="footer">
@@ -673,7 +559,7 @@
           <nav>
             <ol class="footer-links">
               <li class="footer-link">
-                <a title="GitHub" href="https://github.com/devsyedmohsin" target="_blank" rel="noopener"
+                <a title="GitHub" href="https://github.com/nualima" target="_blank" rel="noopener"
                   ><img
                     loading="lazy"
                     src="assets/images/social-links/github.svg"
@@ -681,34 +567,18 @@
                 /></a>
               </li>
               <li class="footer-link">
-                <a title="Codepen" href="https://github.com/devsyedmohsin" target="_blank" rel="noopener"
-                  ><img
-                    loading="lazy"
-                    src="assets/images/social-links/codepen.svg"
-                    alt="Codepen"
-                /></a>
-              </li>
-              <li class="footer-link">
-                <a title="Linkedin" href="https://www.linkedin.com/in/syed-mohisn-raza-393177262/" target="_blank" rel="noopener"
+                <a title="Linkedin" href="https://www.linkedin.com/in/redwan-gharbi-aa516327a/" target="_blank" rel="noopener"
                   ><img
                     loading="lazy"
                     src="assets/images/social-links/linkedin.svg"
                     alt="Linkedin"
                 /></a>
               </li>
-              <li class="footer-link">
-                <a title="Twitter" href="https://github.com/devsyedmohsin" target="_blank" rel="noopener"
-                  ><img
-                    loading="lazy"
-                    src="assets/images/social-links/twitter.svg"
-                    alt="Twitter"
-                /></a>
-              </li>
             </ol>
           </nav>
-          <p class="footer-text">
+          <!-- <p class="footer-text">
             &copy; <span>2024</span> - Template designed & developed by <a target="_blank" rel="noopener" href="https://github.com/devsyedmohsin">Syed Mohsin.</a>
-          </p>
+          </p> -->
           <label class="theme-switch" for="theme-switch">
             <span>Dark Theme</span>
             <input type="checkbox" id="theme-switch" role="switch"/>

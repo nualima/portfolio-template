@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>CV Redwan</title>
+
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="./cv_prog.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(function() {
+            $("#accordion").accordion();
+        });
+    </script>
+</head>
+
+<body>
+
+    <div id="bloc_page" class="container-fluid no-gutters">
+        <!--partie gauche-->
+        <div id="identite" class="">
+            <div id="photo">
+                <img class="portrait" src="photo_identité.jpg " />
+            </div>
+            <div>
+                <p class="titre shadow">Personnelles</p>
+                <p class="type">Nom</p>
+                <p class="answere_type"> Redwan Gharbi</p>
+                <p class="type">Adresse</p>
+                <p class="answere_type">1571 Chemin de St Claude</p>
+                <p class="type">Numéro de téléphone</p>
+                <p class="answere_type">+33(0)7 68 71 67 84</p>
+                <p class="type">Adresse email</p>
+                <p class="answere_type">redwan.gharbi@hotmail.com</p>
+                <p class="type">Date de naissance</p>
+                <p class="answere_type">18 mars 1998</p>
+                <p class="type">Lieu de naissance</p>
+                <p class="answere_type">ANTIBES (06600)</p>
+                <p class="type">Sexe</p>
+                <p class="answere_type">Masculin</p>
+                <p class="type">Permis de conduire</p>
+                <p class="answere_type">B, A</p>
+                <p class="titre shadow">Interêt</p>
+                <p class="answere">Informatique</p>
+                <p class="answere">Sport</p>
+                <p class="answere">Cinéma</p>
+                <p class="titre shadow">Langues</p>
+                <p class="answere">Anglais niveau B1</p>
+                <p class="answere">Espagnol niveau A2</p>
+
+
+
+            </div>
+
+        </div>
+
+        <!--partie droite-->
+        <div id="page_content" class=" no-gutters">
+            <h1>Redwan Gharbi</h1>
+            <article>
+                <p>Je suis un spécialiste en développement informatique motivé, laborieux et ingénieux. Mon experience professionnel éttoffée me permet d'obtenir des résultats pour chaques objectif par le biais d'un apprche ciblée et fluctueuse, axée sur
+                    la recherche active de solutions.
+                </p>
+            </article>
+
+            <div id="accordion">
+
+                <h2 class="titre">Diplômes</h2>
+                <div id="Diplome">
+                    <div>
+                        <ul>
+                            <li>2013 : obtention du brevet des collèges</li>
+                            <li>2017 : obtention du baccalauréat série S</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h2 class="titre">Parcours professionnel</h2>
+                <div id="parcours">
+                    <div>
+                        <ul>
+                            <li>2013 - 2017 : Etudiant au lycée général Jacques Audiberti</li>
+                            <li>2017 - 2019 : Etudiant à la faculté de mathématiques de Nice</li>
+                            <li>2018 - 2019 : Etudiant Université de Nice, Section Mathématique.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h2 class="titre">Expériences professionnelles</h2>
+                <div id="experiences">
+                    <div>
+                        <ul>
+                            <li>Octobre 2019 - Juin 2020 : Livreur au sein de la chaine de restauration ASIAKEO à Antibes </li>
+                            <li>Juillet-Août 2019 : Accueil et Hôte de caisse au sein du STADE NAUTIQUE D'ANTIBES</li>
+                            <li>Août 2018 : Employé polyvalant (caisse et rayon) au sein du magasin LA HALLE AUX CHAUSSURES à Antibes</li>
+                            <li>Juin-Juillet 2018 : Hôte de caisse au sein de centre commercial CARREFOUR Antibes</li>
+                            <li>Juillet - Août 2017 : plongeur en restauration au sein du restaurant LA FABRICA à Juan les Pins </li>
+                            <li>Decembre 2012 : bain d'entreprise d'une semaine en pharmacie</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h2 class="titre">Compétences</h2>
+                <div id="Compétences" class="container-fluid">
+                    <div>
+                        <div class="row">
+                            <div id="skill" class="col-1">
+                                <p>HTML/CSS</p>
+                                <p>Linux</p>
+                                <p>Microsoft Office</p>
+                                <p>Javascript</p>
+
+                            </div>
+                            <div id="progress_bar" class="col-2">
+
+
+                                <progress id="file" max="100" value="70"> 70% </progress> <br>
+                                <progress id="file" max="100" value="50" style="margin-top: 15px;"> 50% </progress><br>
+                                <progress id="file" max="100" value="40" style="margin-top: 20px;"> 40% </progress><br>
+                                <progress id="file" max="100" value="10" style="margin-top: 25px;"> 10% </progress>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+</body>
+
+</html>

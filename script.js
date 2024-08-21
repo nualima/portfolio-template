@@ -112,3 +112,17 @@ logosWrappers.forEach(async (logoWrapper, i) => {
 });
 
 yearEl.textContent = new Date().getFullYear();
+
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+  event.preventDefault(); // Empêche le rechargement de la page
+
+  emailjs.sendForm('service_5wqee0y', 'template_u783ivu', this)
+      .then(function(response) {
+          console.log('SUCCESS!', response.status, response.text);
+          alert('Votre message a été envoyé avec succès !');
+      }, function(error) {
+          console.log('FAILED...', error);
+          alert('Une erreur est survenue. Veuillez réessayer plus tard.');
+      });
+});
+
